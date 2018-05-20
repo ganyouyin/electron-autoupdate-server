@@ -1,0 +1,14 @@
+{
+  "name": "electron-autoupdate-server",
+  "version": "1.0.0",
+  "description": "electron 应用自动更新服务后台",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "ganyouyin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
