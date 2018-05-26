@@ -1,7 +1,8 @@
-let express = require('express');
-let app = express();
+let Koa = require('koa');
+let app = new Koa();
+let path = require('path');
 
-app.use(express.static('releases'));
+app.use(require('koa-static')(path.resolve(__dirname + '/packages')));
 
 let server = app.listen(8080, () => {
     let { address, port } = server.address();

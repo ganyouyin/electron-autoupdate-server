@@ -9,6 +9,7 @@
   "author": "ganyouyin",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.3"
+    "koa": "^2.5.1",
+    "koa-static": "^4.0.3"
   }
 }
